@@ -1,10 +1,10 @@
-[![npm version](https://badge.fury.io/js/fix-json.svg)](https://badge.fury.io/js/fix-json)
-[![npm downloads](https://img.shields.io/npm/dt/fix-json.svg)](https://badge.fury.io/js/fix-json)
+[![npm version](https://badge.fury.io/js/redo-json.svg)](https://badge.fury.io/js/redo-json)
+[![npm downloads](https://img.shields.io/npm/dt/redo-json.svg)](https://badge.fury.io/js/redo-json)
 [![Buy Me A Coffee](https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-yellow.svg)](https://www.buymeacoffee.com/emekaihedoro)
 
-# fix-json
+# redo-json
 
-`fix-json` is a plugin thats adds missing quotes and removes trailing commas in JSON.
+`redo-json` is a plugin thats adds missing quotes and removes trailing commas in JSON.
 
 This plugin is based on [http://fixjson.com](http://fixjson.com) by [https://github.com/4ossiblellc/fixjson](4ossiblellc).
 
@@ -15,19 +15,19 @@ This plugin is based on [http://fixjson.com](http://fixjson.com) by [https://git
 
 ## Installation
 
-    npm install fix-json
+    npm install redo-json
 	
 or
 	
-	yarn add fix-json
+	yarn add redo-json
 
 ## How to use
 
 ```js
-import fixJson from 'fix-json';
+import redoJson from 'redo-json';
 
 const json = '{message: Transaction terminated, reference: null, status: false, method: card, verify: false}';
-const parsed = fixJson.parse(json);
+const parsed = redoJson.parse(json);
 console.log(parsed);
 
 ```

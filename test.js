@@ -1,4 +1,4 @@
-const fixJson = require('./index.js');
+const redoJson = require('./index.js');
 
 var chai = require('chai'),
 	expect = chai.expect;
@@ -21,12 +21,12 @@ const expectedJSON = {
 
 describe('json fix test', function () {
 	it('should return return an object', function () {
-		const parsed = fixJson.parse(input);
+		const parsed = redoJson.parse(input);
 		expect(parsed).to.be.an('object');
 	});
 
 	it("should be equal to 'expected' object", function () {
-		const parsed = fixJson.parse(input);
+		const parsed = redoJson.parse(input);
 		expect(parsed).to.be.deep.equal(expectedJSON);
 	});
 });

@@ -1,5 +1,5 @@
 {
-  "name": "fix-json",
+  "name": "redo-json",
   "version": "1.0.0",
   "description": "auto fix json format",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emekalites/fix-json.git"
+    "url": "git+https://github.com/emekalites/redo-json.git"
   },
   "keywords": [
     "fix",
@@ -18,9 +18,9 @@
   "author": "Chukwuemeka Ihedoro <caihedoro@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emekalites/fix-json/issues"
+    "url": "https://github.com/emekalites/redo-json/issues"
   },
-  "homepage": "https://github.com/emekalites/fix-json",
+  "homepage": "https://github.com/emekalites/redo-json",
   "dependencies": {
     "clarinet": "^0.12.4",
     "jsonic": "^0.3.1"
